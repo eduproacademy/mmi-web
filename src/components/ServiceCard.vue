@@ -1,7 +1,7 @@
 <template>
     <b-card
       :title="title"
-      class="mx-5 service-card shadow border-0 rounded-0"
+      class="mx-5 my-3 service-card shadow border-0 rounded-0"
     >
     </b-card>
 </template>
