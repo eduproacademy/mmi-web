@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light" fixed="top" style="backgroundColor: white;">
+    <b-navbar toggleable="lg" type="light" fixed="top" style="backgroundColor: white;" class="shadow-sm">
       <b-navbar-brand href="#">MMI</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
@@ -12,7 +12,7 @@
             <router-link to="/">Us</router-link>
           </b-nav-item>
           <b-nav-item>
-            <router-link to="/">Services</router-link>
+            <router-link to="/services">Services</router-link>
           </b-nav-item>
           <b-nav-item>
             <router-link to="/">Facilites</router-link>
