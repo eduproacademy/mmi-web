@@ -17,5 +17,10 @@ export default new Router({
       name: 'services',
       component: () => import(/* webpackChunkName: "home" */ './views/ServicesPage.vue'),
     },
+    {
+      path: '/facilities',
+      name: 'facilities',
+      component: () => import(/* webpackChunkName: "home" */ './views/FacilitiesPage.vue'),
+    },
   ],
 });

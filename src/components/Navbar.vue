@@ -15,7 +15,7 @@
             <router-link to="/services">Services</router-link>
           </b-nav-item>
           <b-nav-item>
-            <router-link to="/">Facilites</router-link>
+            <router-link to="/facilities">Facilites</router-link>
           </b-nav-item>
           <b-nav-item>
             <router-link to="/">Contact Us</router-link>
