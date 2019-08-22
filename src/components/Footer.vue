@@ -1,26 +1,27 @@
 <template>
   <div id="fot">
-    <b-container>
-      <b-row class="" align-v="center pt-3">
-        <b-col lg="4" id="left">
+    <b-container fluid>
+      <b-row class="mx-auto d-flex justify-content-around py-3">
+        <div>
           <h2>Connect</h2>
-        </b-col>
-        <b-col lg="4" id="middle">
+          <img src="../assets/twitter.svg" alt="twitter logo" class="icon" />
+          <img src="../assets/linkedin.svg" alt="linkedin logo" class="icon" />
+        </div>
+        <div>
           <h2>Contact</h2>
-          <p>Blablabla</p>
-        </b-col>
-        <b-col leg="4" id="right">
+          <h5>T: +62 (0) 184 630 516</h5>
+          <h5>E: info@mmishipyard.com</h5>
+        </div>
+        <div>
           <h2>Sitemap</h2>
-          <ul style="listStyle: square;">
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Facilities</li>
-              <li>Contact Us</li>
-          </ul>
-        </b-col>
+          <h5>Our Story</h5>
+          <h5>Services</h5>
+          <h5>Facilities</h5>
+          <h5>Contact Us</h5>
+        </div>
       </b-row>
-      <b-col class="text-center">
-          Copyright © 2019 Maju Maritim Indonesia
+      <b-col class="text-center cpr">
+        <p>Copyright © 2019 Maju Maritim Indonesia</p>
       </b-col>
     </b-container>
   </div>
@@ -33,9 +34,27 @@ export default {
 </script>
 
 <style scoped>
-#fot {
-  background-color: black;
-  color: azure;
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans&display=swap");
+h2 {
+  letter-spacing: 0.1rem;
+  font-family: "Fjalla One", sans-serif;
 }
 
+h5,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+#fot {
+  background-color: transparent;
+  color: #26408b;
+}
+.icon {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.cpr {
+  letter-spacing: .2rem;
+  color: #1c90d8;
+}
 </style>

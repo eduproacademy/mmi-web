@@ -1,7 +1,7 @@
 <template>
     <b-card
       :title="title"
-      class="mx-5 my-3 service-card shadow border-0 rounded-0"
+      class="service-card shadow border-0 rounded-0"
     >
     </b-card>
 </template>
@@ -33,7 +33,7 @@ export default {
 }
 
 .service-card {
-  width: 30rem; 
+  width: 38rem; 
   height: 35rem; 
   background-image: url('../assets/1.jpg');
 }

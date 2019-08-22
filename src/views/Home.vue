@@ -1,100 +1,117 @@
 <template>
   <div style="marginTop: 5vh;">
-    <carousel :perPage="1" :loop="true">
-      <slide id="slide1">
-        <b-container>
-          <h1 class="headline">Slide 1</h1>
-        </b-container>
-      </slide>
-      <slide id="slide2">
-        <b-container class="pb-5 headline-text">
-          <div class="headline">AHOY</div>
-          <div class="subheadline">The brand new ferry of the Wightlink fleet is delivered.</div>
-          <ButtonHero />
-
-        </b-container>
-      </slide>
-      <slide id="slide3">Slide 3</slide>
-      <slide id="slide4">Slide 4</slide>
-    </carousel>
-    <Services />
-    <Clients />
+    <header id="hero">
+      <div class="main-title" id="hero-text">
+        <div id="rect"></div>
+        <h1>Build</h1>
+        <h1>Repair</h1>
+        <h1>Conversion</h1>
+      </div>
+    </header>
+    <section id="our-story">
+      <h1>Our Story</h1>
+      <h4>
+        We are a shipyard company which provides new-build services and dry docking / repair & maintenance services to third party vessels and to our own group owned vessels. 
+      </h4>
+    </section>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Services from "@/components/Services.vue";
-import Clients from "@/components/Clients.vue";
-import ButtonHero from "@/components/ButtonHero.vue";
-import { Carousel, Slide } from "vue-carousel";
-
 export default {
   name: "home",
   components: {
-    Services,
-    Clients,
-    Carousel,
-    Slide,
-    ButtonHero,
+    Services
   },
   data() {
     return {};
-  },
+  }
 };
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
-.headline-text {
-  font-family: 'Viga', sans-serif;
+body {
+  background-color: aliceblue;
 }
-.VueCarousel-slide {
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans&display=swap");
+
+#hero {
+  margin: 8rem 1rem 0 1rem;
+  height: 50rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.082),
+      rgba(14, 65, 204, 0.37)
+    ),
+    url("https://www.niesternsander.com/friksbeheer/wp-content/uploads/2018/06/MG_7450-1920x820.jpg");
+  background-position: top;
   position: relative;
-  display: flex;
-  background: #42b983;
-  color: #fff;
-  font-family: Arial;
-  align-items: flex-end;
-  height: 95vh;
-  cursor: pointer;
-}
-.headline {
-  color: white;
-  font-size: 8rem;
 }
 
-.subheadline {
-  font-size: 2rem;
-}
-@media (min-width: 1281px) {
-  #slide1 {
-    background-image: url("../assets/1.jpg");
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  #slide1 {
-    background-image: url("../assets/2.jpg");
-  }
-}
-
-#slide2 {
-  background-image: url(https://www.cemreshipyard.com/uploads/slide/image/1920x1080/4-5.jpg?=fad872f86ab4218377e85a5ee3a60f54);
-}
-
-#slide3 {
-  background-image: url(https://www.cemreshipyard.com/uploads/slide/image/1920x1080/1-1.jpg?=d6fe3e2c7afdbe2b3ea153e87a7e03df);
-}
-
-#slide4 {
-  background-image: url(https://www.cemreshipyard.com/uploads/slide/image/1920x1080/dji-0286-v2-en-son-slider-2.jpg?d6fe3e2c7afdbe2b3ea153e87a7e03df);
-}
-
-.label {
+#hero-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  /* terhadap parent elemnt */
+  top: 80%;
+  left: 30%;
+  text-align: left;
+  color: white;
+
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  /* terhadap element ini sendiri */
   transform: translate(-50%, -50%);
+}
+#rect {
+  left: -50%;
+  position: absolute;
+  background-color: #1c90d8;
+  height: 29rem;
+  width: 20rem;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+.main-title h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 700;
+  font-size: 8rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+#our-story {
+  background-image: url('../assets/wave.svg');
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  margin-top: 4rem;
+  padding-bottom: 30rem;
+  height: 30rem;
+}
+
+#our-story h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-size: 7rem;
+  letter-spacing: 0.2rem;
+  color: white;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 15%;
+
+}
+
+#our-story h4 {
+  font-family: "Fjalla One", sans-serif;
+
+  font-size: 2.5rem;
+  padding: 2rem;
+    max-width: 80rem;
+  color: #26408b;
+  text-align: left;
+
+}
+#our-story svg {
+  position: relative;
+  z-index: -999;
 }
 </style>
