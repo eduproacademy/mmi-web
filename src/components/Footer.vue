@@ -45,6 +45,7 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 #fot {
+  margin-top: 5rem;
   background-color: transparent;
   color: #26408b;
 }
