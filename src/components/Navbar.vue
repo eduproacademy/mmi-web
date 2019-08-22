@@ -16,7 +16,7 @@
             <router-link to="/facilities">FACILITIES</router-link>
           </b-nav-item>
           <b-nav-item class="mr-3">
-            <router-link to="/">CONTACT US</router-link>
+            <router-link to="/contactUs">CONTACT US</router-link>
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
