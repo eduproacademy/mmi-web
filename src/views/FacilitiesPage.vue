@@ -52,7 +52,7 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
 header {
-  height: 30rem;
+  height: 50vh;
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.082),
@@ -61,6 +61,7 @@ header {
     url("https://www.carena.ci/ADM_CAR/wp-content/uploads/2019/05/Vue-dessus-VO-00000003-002@1.jpg");
   background-position: top;
   position: relative;
+  background-size: cover;
 }
 
 #header-text {

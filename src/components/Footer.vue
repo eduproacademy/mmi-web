@@ -14,10 +14,10 @@
         </div>
         <div>
           <h2>Sitemap</h2>
-          <h5>Our Story</h5>
-          <h5>Services</h5>
-          <h5>Facilities</h5>
-          <h5>Contact Us</h5>
+          <router-link to="/#our-story"><h5>Our Story</h5></router-link>
+          <router-link to="/services"><h5>Services</h5></router-link>
+          <router-link to="/facilities"><h5>Facilities</h5></router-link>
+          <router-link to="/contactus"><h5>Contact Us</h5></router-link>
         </div>
       </b-row>
       <b-col class="text-center cpr">
@@ -57,5 +57,9 @@ p {
 .cpr {
   letter-spacing: .2rem;
   color: #1c90d8;
+}
+
+#fot a {
+  text-decoration: none;
 }
 </style>

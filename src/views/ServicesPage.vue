@@ -2,7 +2,7 @@
   <div>
     <header></header>
     <div style="marginTop: 5rem;">
-      <h1 class="main-title" id="header-text">Our Services</h1>
+      <h1 class="" id="header-text">Services</h1>
       <b-row class="d-flex py-5">
         <div class="service-tab-desc flex-fill">
           <h1>Ship Building</h1>
@@ -70,7 +70,7 @@ ul > li {
 }
 
 header {
-  height: 30rem;
+  height: 50vh;
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.082),
@@ -79,17 +79,24 @@ header {
     url("https://www.niesternsander.com/friksbeheer/wp-content/uploads/2018/06/MG_7450-1920x820.jpg");
   background-position: top;
   position: relative;
+  background-size: cover;
 }
 
 #header-text {
-    position: absolute;
-    /* terhadap parent elemnt */
-    top: 40%;
-    left: 50%;
-    text-align: center;
-    color: beige;
-    /* terhadap element ini sendiri */
-    transform: translate(-50%, -50%);
+  position: absolute;
+  /* terhadap parent elemnt */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 6rem;
+  letter-spacing: 0.5rem;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  text-align: center;
+  color: white;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  /* terhadap element ini sendiri */
+  transform: translate(-50%, -50%);
 }
 
 li {

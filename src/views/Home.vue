@@ -39,7 +39,7 @@ body {
 
 #hero {
   margin: 8rem 1rem 0 1rem;
-  height: 50rem;
+  height: 80vh;
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.082),
@@ -48,6 +48,7 @@ body {
     url("https://www.niesternsander.com/friksbeheer/wp-content/uploads/2018/06/MG_7450-1920x820.jpg");
   background-position: top;
   position: relative;
+  background-size: cover;
 }
 
 #hero-text {
