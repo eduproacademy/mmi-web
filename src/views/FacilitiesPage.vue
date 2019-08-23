@@ -12,7 +12,7 @@
           img-alt="Image"
           img-top
         >
-          <h1 class="title caption">Dock 1</h1>
+          <h1 class="title caption">Dry Dock</h1>
         </b-card>
         <b-card
           no-body
@@ -22,7 +22,7 @@
           img-alt="Image"
           img-top
         >
-          <h1 class="title caption">Dock 2</h1>
+          <h1 class="title caption">Floating Repair Jetty</h1>
         </b-card>
         <b-card
           no-body
@@ -32,7 +32,7 @@
           img-alt="Image"
           img-top
         >
-          <h1 class="title caption">Airbag Way</h1>
+          <h1 class="title caption">Airbag Yard</h1>
         </b-card>
       </b-row>
       <h1 class="title main-title">Map</h1>

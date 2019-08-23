@@ -5,50 +5,30 @@
       <h1 class="" id="header-text">Services</h1>
       <b-row class="d-flex py-5">
         <div class="service-tab-desc flex-fill">
-          <h1>Ship Building</h1>
-          <h4>We build ships for merchant shipping, inland shipping and offshore.</h4>
-          <h4>Ship building is in our genes . We design and build a variety of ships, from Tug Boats and Barges.</h4>
+          <h4>We specialize in repair of steel barges, tugboats, LCT and small passenger/roro ferries.</h4>
+          <h4>We have inhouse design and engineering services to meet the demands of our customers.</h4>
+          <h4>We strictly abide by the rules of classification and the authorities to ensure safe shipping operations.</h4>
         </div>
         <div class="service-tab-list flex-fill">
-          <h1>How we build</h1>
-          <ul>
-            <li>In-House Design & Engineering</li>
-            <li>Different Ship Types</li>
-            <li>Efficient Production Process</li>
-          </ul>
+          <h1>SHIP REPAIR</h1>
         </div>
       </b-row>
     </div>
 
     <b-row class="d-flex py-5">
       <div class="service-tab-list flex-fill">
-        <h1>How we repair</h1>
-        <ul>
-          <li>24/7 Available</li>
-          <li>Dock Location Bojonegara</li>
-          <li>Graving Dock</li>
-        </ul>
+        <h1>SHIP BUILDING</h1>
       </div>
       <div class="service-tab-desc flex-fill">
-        <h1>Ship Repair</h1>
-        <h4>Maju Maritim Indonesia has a wide, multi-specialized experience in ship repair. The company has specialists in all existing sub-disciplines.</h4>
-        <h4>This is an appropriate response to the demand for surveys, mobilizations, maintenance and repair orders.</h4>
+        <h4>We engage in new ship building of all sizes that meets our launch site water-depth with support from our inhouse design and engineering services.</h4>
       </div>
     </b-row>
     <b-row class="d-flex py-5">
       <div class="service-tab-desc flex-fill">
-        <h1>Ship Conversion</h1>
-        <h4>We renew, redesign, and rebuild ships to new technical and functional requirements.</h4>
-        <h4>Think of renewal of old ships, the redesign of existing ships or the conversion to new technical and functional requirements.</h4>
+        <h4>We cater to customer requests for ship redesign so as to meet new technical and functional requirements ensuring customer continued shipping business.</h4>
       </div>
       <div class="service-tab-list flex-fill">
-        <h1>How we do it</h1>
-        <ul>
-          <li>Here the customer question comes first</li>
-          <li>A customer-specific design is created</li>
-          <li>Then the engineering takes place</li>
-          <li>Customization as it should be</li>
-        </ul>
+        <h1>SHIP CONVERSION</h1>
       </div>
     </b-row>
   </div>

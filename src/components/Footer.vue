@@ -9,8 +9,8 @@
         </div>
         <div>
           <h2>Contact</h2>
-          <h5>T: +62 (0) 184 630 516</h5>
-          <h5>E: info@mmishipyard.com</h5>
+          <h5>T: +62 888 0695 6558</h5>
+          <h5>E: hello@majumaritim.com</h5>
         </div>
         <div>
           <h2>Sitemap</h2>

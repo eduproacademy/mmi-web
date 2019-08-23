@@ -11,7 +11,13 @@
     <section id="our-story">
       <h1>Our Story</h1>
       <h4>
-        We are a shipyard company which provides new-build services and dry docking / repair & maintenance services to third party vessels and to our own group owned vessels. 
+        The sea is our first love ! Thus the reason why we immerse ourselves in the maritime business of shipyard.
+      </h4>
+      <h4>
+        We repair ships for regular maintenance or defects,  new shipbuilding as well as ship conversion. Our combined expertise tantamount to 40 years of shipyard repair, build and conversion experience in the region.
+      </h4>
+      <h4>
+        We aspire to deliver our best services to our valued customers. We believe in forging lifelong relationships with all our stakeholders.
       </h4>
     </section>
   </div>
