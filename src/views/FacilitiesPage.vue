@@ -8,7 +8,7 @@
           no-body=""
           class="border-0 shadow"
           style="width: 30rem; height: 20rem;"
-          img-src="https://www.cemreshipyard.com/assets/img/facilities/physical-investments.jpg"
+          :img-src="require('../assets/photo/Drydock.jpg')"
           img-alt="Image"
           img-top
         >
@@ -18,7 +18,7 @@
           no-body
           class="border-0 shadow"
           style="width: 30rem; height: 20rem;"
-          img-src="https://www.cemreshipyard.com/assets/img/facilities/innovative-investments.jpg"
+          :img-src="require('../assets/photo/Jetty.jpg')"
           img-alt="Image"
           img-top
         >
@@ -28,7 +28,7 @@
           no-body
           class="border-0 shadow"
           style="width: 30rem; height: 20rem;"
-          img-src="https://www.cemreshipyard.com/assets/img/facilities/hr-investments.jpg"
+          :img-src="require('../assets/photo/Airbag.jpg')"
           img-alt="Image"
           img-top
         >
@@ -53,13 +53,9 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
 header {
   height: 50vh;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.082),
-      rgba(18, 81, 252, 0.205)
-    ),
-    url("https://www.carena.ci/ADM_CAR/wp-content/uploads/2019/05/Vue-dessus-VO-00000003-002@1.jpg");
-  background-position: top;
+  background-image: 
+    url("../assets/photo/Facilities.jpg");
+  background-position: center;
   position: relative;
   background-size: cover;
 }

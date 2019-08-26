@@ -26,6 +26,6 @@ export default new Router({
       path: '/contactUs',
       name: 'contactUs',
       component: () => import(/* webpackChunkName: "home" */ './views/ContactUsPage.vue'),
-    }
+    },
   ],
 });

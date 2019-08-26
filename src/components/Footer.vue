@@ -4,8 +4,8 @@
       <b-row class="mx-auto d-flex justify-content-around py-3">
         <div>
           <h2>Connect</h2>
-          <img src="../assets/twitter.svg" alt="twitter logo" class="icon" />
-          <img src="../assets/linkedin.svg" alt="linkedin logo" class="icon" />
+          
+          <img id="img-linkedin" src="../assets/linkedin.svg" alt="linkedin logo" class="icon" @click="openLinkedIn"/>
         </div>
         <div>
           <h2>Contact</h2>
@@ -29,7 +29,12 @@
 
 <script>
 export default {
-  name: "Footer"
+  name: "Footer",
+  methods: {
+    openLinkedIn() {
+      window.open("https://www.linkedin.com/company/maju-maritim-indonesia/about/", "_blank")
+    }
+  }
 };
 </script>
 
@@ -58,8 +63,14 @@ p {
   letter-spacing: .2rem;
   color: #1c90d8;
 }
-
+#fot {
+  display: block;
+}
 #fot a {
   text-decoration: none;
+}
+
+#img-linkedin:hover {
+  cursor: pointer;
 }
 </style>

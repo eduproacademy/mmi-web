@@ -37,9 +37,13 @@ img {
 }
 a .navbar-brand {
   font-family: "Fjalla One", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 2rem;
   letter-spacing: .07rem;
+  color: #1c90d8;
+}
+
+a .navbar-brand:hover {
   color: #26408b;
 }
 a.nav-link  {

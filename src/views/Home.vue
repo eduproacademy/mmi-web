@@ -3,34 +3,29 @@
     <header id="hero">
       <div class="main-title" id="hero-text">
         <div id="rect"></div>
-        <h1>Build</h1>
         <h1>Repair</h1>
+        <h1>Build</h1>
         <h1>Conversion</h1>
       </div>
     </header>
-    <section id="our-story">
+    <div id="our-story">
       <h1>Our Story</h1>
-      <h4>
-        The sea is our first love ! Thus the reason why we immerse ourselves in the maritime business of shipyard.
-      </h4>
-      <h4>
-        We repair ships for regular maintenance or defects,  new shipbuilding as well as ship conversion. Our combined expertise tantamount to 40 years of shipyard repair, build and conversion experience in the region.
-      </h4>
-      <h4>
-        We aspire to deliver our best services to our valued customers. We believe in forging lifelong relationships with all our stakeholders.
-      </h4>
-    </section>
+      <div id="pharagraph">
+        <h4>The sea is our first love! Thus the reason why we immerse ourselves in the maritime business of shipyard.</h4>
+        <br />
+        <h4>We repair ships for regular maintenance or defects, new shipbuilding as well as ship conversion. Our combined expertise tantamount to 40 years of shipyard repair, build and conversion experience in the region.</h4>
+        <br />
+        <h4>We aspire to deliver our best services to our valued customers. We believe in forging lifelong relationships with all our stakeholders.</h4>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Services from "@/components/Services.vue";
 export default {
   name: "home",
-  components: {
-    Services
-  },
+  components: {},
   data() {
     return {};
   }
@@ -46,12 +41,7 @@ body {
 #hero {
   margin: 8rem 1rem 0 1rem;
   height: 80vh;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.082),
-      rgba(14, 65, 204, 0.37)
-    ),
-    url("https://www.niesternsander.com/friksbeheer/wp-content/uploads/2018/06/MG_7450-1920x820.jpg");
+  background-image: url("../assets/photo/Hero.png");
   background-position: top;
   position: relative;
   background-size: cover;
@@ -86,12 +76,11 @@ body {
 }
 
 #our-story {
-  background-image: url('../assets/wave.svg');
+  background-image: url("../assets/wave.svg");
   background-repeat: no-repeat;
   padding-top: 10rem;
   margin-top: 4rem;
-  padding-bottom: 30rem;
-  height: 30rem;
+  margin-bottom: 20rem;
 }
 
 #our-story h1 {
@@ -104,18 +93,18 @@ body {
   text-transform: uppercase;
   text-align: right;
   padding-right: 15%;
-
 }
 
-#our-story h4 {
-  font-family: "Fjalla One", sans-serif;
-
-  font-size: 2.5rem;
-  padding: 2rem;
-    max-width: 80rem;
+#pharagraph {
+  margin: 5rem;
   color: #26408b;
   text-align: left;
-
+}
+#pharagraph h4 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2.5rem;
+  padding: 0 2rem;
+  max-width: 80rem;
 }
 #our-story svg {
   position: relative;

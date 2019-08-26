@@ -2,10 +2,10 @@
   <div>
     <header></header>
     <h1 class="title main-title" id="header-text">Contact Us</h1>
-      <h1 class="title main-title">Form</h1>
+      <h1 class="title main-title mt-5">Form</h1>
 
 
-    <div class="shadow">
+    <div class="shadow mb-5">
     <iframe
       id
       allowtransparency="true"
@@ -17,7 +17,7 @@
     ></iframe>
 
     </div>
-      <h1 class="title main-title">Map</h1>
+      <h1 class="title main-title mt-5">Location</h1>
     <div class="shadow">
 
     <iframe
@@ -47,8 +47,8 @@ header {
       rgba(255, 255, 255, 0.082),
       rgba(18, 81, 252, 0.205)
     ),
-    url("https://www.carena.ci/ADM_CAR/wp-content/uploads/2019/05/Vue-dessus-VO-00000003-002@1.jpg");
-  background-position: top;
+    url("../assets/photo/contactus_hero.jpg");
+  background-position: center;
   position: relative;
   background-size: cover;
 }

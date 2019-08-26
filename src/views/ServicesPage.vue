@@ -56,7 +56,7 @@ header {
       rgba(255, 255, 255, 0.082),
       rgba(18, 81, 252, 0.205)
     ),
-    url("https://www.niesternsander.com/friksbeheer/wp-content/uploads/2018/06/MG_7450-1920x820.jpg");
+    url("../assets/photo/service_hero.jpg");
   background-position: top;
   position: relative;
   background-size: cover;

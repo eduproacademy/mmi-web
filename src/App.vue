@@ -3,7 +3,7 @@
     <Navbar />
     <router-view />
     <Footer />
-    <a href="https://api.whatsapp.com/send?phone=6285881990294" id="wa">
+    <a href="https://api.whatsapp.com/send?phone=6288806956558" id="wa" target="blank">
       <img
         border="0"
         alt="whatsapp"
@@ -28,8 +28,6 @@ export default {
 
 <style>
 .navbar {
-  /* position: relative; */
-  /* top: 0%; */
   font-size: 1.4rem;
   min-height: 5rem;
   z-index: 9999;
