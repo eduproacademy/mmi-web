@@ -1,5 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import Home from './views/Home.vue';
+import ServicesPage from './views/ServicesPage.vue';
+import FacilitiesPage from './views/FacilitiesPage.vue';
+import ContactUsPage from './views/ContactUsPage.vue';
 
 Vue.use(Router);
 
@@ -10,22 +14,22 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: () => import(/* webpackChunkName: "home" */ './views/Home.vue'),
+      component: Home,
     },
     {
       path: '/services',
       name: 'services',
-      component: () => import(/* webpackChunkName: "home" */ './views/ServicesPage.vue'),
+      component: ServicesPage,
     },
     {
       path: '/facilities',
       name: 'facilities',
-      component: () => import(/* webpackChunkName: "home" */ './views/FacilitiesPage.vue'),
+      component: FacilitiesPage,
     },
     {
       path: '/contactUs',
       name: 'contactUs',
-      component: () => import(/* webpackChunkName: "home" */ './views/ContactUsPage.vue'),
+      component: ContactUsPage,
     },
   ],
 });

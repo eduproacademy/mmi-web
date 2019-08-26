@@ -40,7 +40,7 @@ body {
 
 #hero {
   margin: 8rem 1rem 0 1rem;
-  height: 80vh;
+  height: 75vh;
   background-image: url("../assets/photo/Hero.png");
   background-position: top;
   position: relative;

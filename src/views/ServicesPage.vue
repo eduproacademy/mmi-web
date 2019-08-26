@@ -2,32 +2,32 @@
   <div>
     <header></header>
     <div style="marginTop: 5rem;">
-      <h1 class="" id="header-text">Services</h1>
-      <b-row class="d-flex py-5">
+      <h1 class id="header-text">Services</h1>
+      <b-row class="d-flex py-5 mx-auto">
         <div class="service-tab-desc flex-fill">
           <h4>We specialize in repair of steel barges, tugboats, LCT and small passenger/roro ferries.</h4>
           <h4>We have inhouse design and engineering services to meet the demands of our customers.</h4>
           <h4>We strictly abide by the rules of classification and the authorities to ensure safe shipping operations.</h4>
         </div>
-        <div class="service-tab-list flex-fill">
+        <div class="service-tab-list flex-fill d-flex align-items-center">
           <h1>SHIP REPAIR</h1>
         </div>
       </b-row>
     </div>
 
-    <b-row class="d-flex py-5">
+    <b-row class="d-flex py-5 mx-auto">
       <div class="service-tab-list flex-fill">
         <h1>SHIP BUILDING</h1>
       </div>
-      <div class="service-tab-desc flex-fill">
+      <div class="service-tab-desc flex-fill d-flex align-items-baseline">
         <h4>We engage in new ship building of all sizes that meets our launch site water-depth with support from our inhouse design and engineering services.</h4>
       </div>
     </b-row>
-    <b-row class="d-flex py-5">
+    <b-row class="d-flex py-5 mx-auto">
       <div class="service-tab-desc flex-fill">
         <h4>We cater to customer requests for ship redesign so as to meet new technical and functional requirements ensuring customer continued shipping business.</h4>
       </div>
-      <div class="service-tab-list flex-fill">
+      <div class="service-tab-list flex-fill d-flex align-items-baseline">
         <h1>SHIP CONVERSION</h1>
       </div>
     </b-row>

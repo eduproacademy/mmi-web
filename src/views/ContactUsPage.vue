@@ -2,35 +2,32 @@
   <div>
     <header></header>
     <h1 class="title main-title" id="header-text">Contact Us</h1>
-      <h1 class="title main-title mt-5">Form</h1>
-
+    <h1 class="title main-title mt-5">Ask MMI Shipyard</h1>
 
     <div class="shadow mb-5">
-    <iframe
-      id
-      allowtransparency="true"
-      allowfullscreen="true"
-      allow="geolocation; microphone; camera"
-      src="https://forms.app/form/5d5e65c8c8aa4c22eb0e7ad1"
-      frameborder="0"
-      style="width: 100%; height:56.6rem; border:none;"
-    ></iframe>
-
+      <iframe
+        id
+        allowtransparency="true"
+        allowfullscreen="true"
+        allow="geolocation; microphone; camera"
+        src="https://forms.app/form/5d5e65c8c8aa4c22eb0e7ad1"
+        frameborder="0"
+        style="width: 100%; height:56.6rem; border:none;"
+      ></iframe>
     </div>
-      <h1 class="title main-title mt-5">Location</h1>
+    <h1 class="title main-title mt-5">Location</h1>
     <div class="shadow">
-
-    <iframe
-      width="100%"
-      height="450"
-      frameborder="0"
-      style="border:0"
-      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB4c9oRJROyKDrB1PwKkppNxZ_SeM7Fb8I&q=PT+Maju+Maritim+Indonesia+(Dok+Kapal)"
-      allowfullscreen
-    ></iframe>
+      <iframe
+        width="100%"
+        height="450"
+        frameborder="0"
+        style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB4c9oRJROyKDrB1PwKkppNxZ_SeM7Fb8I&q=PT+Maju+Maritim+Indonesia+(Dok+Kapal)"
+        allowfullscreen
+      ></iframe>
     </div>
-  
-    <img src="../assets/wave.svg" alt width style="marginTop: 4rem;"/>
+
+    <img src="../assets/wave.svg" alt width style="marginTop: 4rem;" />
   </div>
 </template>
 
